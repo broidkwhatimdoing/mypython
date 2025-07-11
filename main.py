@@ -28,3 +28,11 @@ if x<10 : print('single')
 if 100>x>9: print('double')
 if 1000>x>99:print('triple')
 
+for n in range(2, 10):
+    for x in range(2, n):
+        if n % x == 0:
+            print(n, 'equals', x, '*', n//x)
+            break
+    else:
+        # loop fell through without finding a factor
+        print(n, 'is a prime number')
