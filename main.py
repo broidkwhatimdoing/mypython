@@ -36,3 +36,13 @@ for n in range(2, 10):
     else:
         # loop fell through without finding a factor
         print(n, 'is a prime number')
+
+users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
+users['Éléonore']='unknown'
+print(users['Éléonore'])
+#del users['Hans']
+users['Allison']= 'half-active'
+print(len(users))
+print(users)
+users['Allison']= 'semi-active'
+print(users)
