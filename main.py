@@ -91,6 +91,26 @@ while command.lower() != "quit":
   command = input (">")
   print("ECHO", command)
 
+def greet(first_name, last_name):
+  print(f"Hi {first_name}, {last_name}")
+  print("Welcome Aboard")
+greet("Allison", "Zeng")
+
+def get_greeting(name):
+  return f"Hi {name}"
 
 
+message = get_greeting ("Allison")
+file = open("content.txt", "w")
+file.write(message)
 
+def increment(number, by):
+  return number + by
+print(increment(2, 5))
+
+def multiply(*numbers):
+  total = 1
+  for number in numbers:
+    total *= number
+    return total
+print(multiply(2,3,4,5))
