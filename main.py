@@ -114,3 +114,79 @@ def multiply(*numbers):
     total *= number
     return total
 print(multiply(2,3,4,5))
+
+print("Hello World")
+print("@"*10)
+print(2+6)
+
+message = """blah, blah, blah"""
+
+print(message)
+print(len(message))
+
+print(message[1])
+print(message[-1])
+print(message[0:4])
+
+course = "python \"programing"
+print(course)
+
+first = "Allison"
+last = "Zeng"
+full_name = first + " " + last
+print(full_name)
+
+age = 12
+message = "Eligible" if age >= 18 else "Not Eligible"
+print(message)
+
+high_income = False
+good_credit = True
+student = False
+if (high_income or good_credit) and not student:
+  print("Eligible")
+
+age = 22
+if age >= and age < 65:
+  print("Eligible")
+
+
+print(course.upper())
+print(course.lower())
+print(course.title())
+print(course.strip())
+print(course.find("ing"))
+print(course.replace("ing" , "poop"))
+print("pro" in course)
+print("poop" in course)
+
+
+
+# Online Python Playground
+# Use the online IDE to write, edit & run your Python code
+# Create, edit & delete files online
+
+course = "python programming"
+print("swift" not in course)
+
+print(10 // 3)
+print(10 % 3)
+x = 10
+x = x + 3
+x += 3
+print(x)
+print(round(5.93939475))
+
+input("x:")
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
+
+input("temperature:")
+if input > 30:
+  print("It's warm")
+  print("Drink water")
+elif input > 20:
+  print("It's nice")
+else:
+  print("It's Cold")
+print("Done")
